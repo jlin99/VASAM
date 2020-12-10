@@ -1,0 +1,65 @@
+
+body {
+      background: #730709;
+      font-family: Trebuchet MS;
+}
+
+#spencer-piece h1{
+    color: white;
+    text-align: center;
+    font-size: 64px;
+    margin: 5%;
+}
+#spencer-piece .picture-caption{
+    width: 60%;
+    position: relative;
+    margin-left: 20%;
+    display: inline block;
+    margin-top: 1%;
+}
+
+.picture-caption img{
+    height: auto;
+    width: 100%;
+    opacity: 1;
+
+}
+.picture-caption .middle.show{
+    opacity: 1;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.text{
+    color: white;
+    font-size: 2.75vh;
+    position: absolute;
+    text-align: center;
+    margin: 3%;
+    line-height: 0.7cm;
+}
+@media screen and (min-width: 1000px) {
+    #spencer-piece .picture-caption{
+        float: left;
+        width: 18%;
+        position: relative;
+        margin: 1%;
+    }
+    .text{
+        line-height: normal;
+        font-size: 1.05vw;
+    }
+    .picture-caption:hover .middle{
+        opacity: 1;
+    }
+}

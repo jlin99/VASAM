@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./header.css">
+<link rel="stylesheet" href="./art.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".picture-caption").click(function() {
+      $(this).children(".middle").toggleClass("show");
+    });
+});
+</script>
+</head>
+<body>
+<ul>
+    <li><a href=index.html>Home</a></li>
+    <li><a href=art.html>Art/Media</a> </li>
+    <li><a href=about-us.html>About Us</a></li>
+</ul>
+
+<div id="spencer-piece">
+    <h1>Why Vasam?</h1>
+    <div class="picture-caption" id="tamika">
+        <img src='art/Tamika.jpg'>
+        <div class="middle">
+            <div class="text">
+            Asian American studies is important because it explores power relations and reminds us of the coalitions and collective resistance that Asian Americans share with other minority groups in the USA. It’s a place for movement building, for critiquing dominant structures, for imagining.
+            </div>
+        </div>
+    </div>
+    <div class="picture-caption" id="gabor">
+        <img src='art/Gabor.jpg'>
+        <div class="middle">
+            <div class="text">
+            Asian American studies is important to me because it's a key part of America. America would not exist without Asia and Asian people, Columbus was seeking India, many key pieces of US history and US society are predicated on work done by Asian people. Asian American studies is about that and everyone should learn about it.
+            </div>
+        </div>
+    </div>
+    <div class="picture-caption" id="johnson">
+        <img src='art/Johnson.jpg'>
+        <div class="middle">
+            <div class="text">
+            Asian American studies is important to me because it contextualizes a lot of my experiences and because of that allowed me to work through a lot of trauma.
+            </div>
+        </div>
+    </div>
+    <div class="picture-caption" id="kanako">
+        <img src='art/Kanako.jpg'>
+        <div class = "middle">
+            <div class="text">
+            VASAM is an important space for me because it allows me to recognize, process, and articulate my experiences as an Asian American in ways that I haven’t been able to do in traditional classroom spaces. Engaging with Asian American studies has been a way for me to begin the healing process of unlearning the harmful ideologies that were instilled in me through systems of power.
+            </div>
+        </div>
+    </div>
+    <div class="picture-caption" id="spencer">
+        <img src='art/Spencer.jpg'>
+        <div class="middle">
+            <div class="text">
+            Asian American studies is important because Asian Americans are so often excluded from history and current day discussions. To quote Ifti Nasim “Unless you know where you come from you don’t know where you’re going”. Without learning our histories we lack the knowledge to determine our identities; without our stories being told we are excluded from a narrative of a country that would not be possible without Asian Americans.
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    background: #730709;
+    font-family: Trebuchet MS;
+}
+h2 {
+    font-size: 60px;
+    color: white;
+}
+p {
+    color: white;
+    margin-top: 2%;
+    line-height: 0.7cm;
+}
+#about-us {
+    margin: 5%;
+}
+#contact{
+    margin: 5%;
+}
+a {
+    color: white;
+}

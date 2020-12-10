@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    padding: 30px;
+
+}
+li {
+    float:left;
+    width: 33%;
+    text-align: center;
+}
+ul a {
+    color: white;
+    text-decoration: none;
+    font-family: Trebuchet MS;
+    letter-spacing: 1.5px;
+}
