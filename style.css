@@ -126,22 +126,23 @@
 /* Fonts */
 body {
   font-family: Trebuchet MS;
+  background: #730709;
 }
-
+p{
+  font-family: Garamond, serif;
+}
 #timeline {
   padding: 100px 0;
-  background: #730709;
-  border-top: 1px solid rgba(191, 191, 191, 0.4);
   border-bottom: 1px solid rgba(191, 191, 191, 0.4);
 }
 #timeline h1 {
   text-align: center;
   margin-bottom: 20px;
-  margin-top: -40px;
+  margin-top: -100px;
 }
 #timeline h1 img{
   height: auto;
-  width: 55%;
+  width: 65%;
 }
 #timeline p.leader {
   text-align: center;
@@ -164,7 +165,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     width: 1170px;
-    height: 5570px;
+    height: 5200px;
     margin: 0 auto;
   }
 }
@@ -242,7 +243,7 @@ body {
   font-weight: 400;
   background: #f7cb8b;
 }
-#timeline .demo-card .head .head::after {
+#timeline .demo-card .head::after {
   border-color: #f7cb8b;
 }
 #timeline .demo-card .head .number-box {

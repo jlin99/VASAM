@@ -3,12 +3,27 @@ body {
       background: #730709;
       font-family: Trebuchet MS;
 }
-
-#spencer-piece h1{
+p { 
+    font-family: Garamond, serif;
+}
+h1{
     color: white;
     text-align: center;
     font-size: 64px;
     margin: 5%;
+}
+
+#spencer-piece h2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -2%;
+    margin-bottom: 1%;
+}
+#spencer-piece h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
 }
 #spencer-piece .picture-caption{
     width: 60%;
@@ -62,4 +77,23 @@ body {
     .picture-caption:hover .middle{
         opacity: 1;
     }
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.flex-container div{
+    width: auto;
+    height: 300px;
+    margin: 1%;
+}
+.flex-container img{
+    width: auto;
+    height: 100%;
+}
+#flyers {
+    margin-top: 25%;
 }
