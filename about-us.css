@@ -1,16 +1,24 @@
+@font-face {
+  font-family: League Spartan;
+  src: url(fonts/LeagueSpartan-Bold.otf);
+  font-weight: bold;
+}
 body {
     background: #730709;
-    font-family: Trebuchet MS;
+    font-family: League Spartan;
 }
 h2 {
     font-size: 60px;
     color: white;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 p {
     font-family: Garamond, serif;
     color: white;
     margin-top: 2%;
     line-height: 0.7cm;
+    font-size: 16px;
 }
 #about-us {
     margin: 5%;

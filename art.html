@@ -13,11 +13,12 @@ $(document).ready(function(){
     });
 });
 </script>
+
 </head>
 <body>
 <ul>
     <li><a href=index.html>Home</a></li>
-    <li><a href=art.html class="active-page">Art/Media</a> </li>
+    <li><a href=art.html class="active-page">Art & Media</a> </li>
     <li><a href=about-us.html>About Us</a></li>
 </ul>
 
@@ -80,65 +81,39 @@ $(document).ready(function(){
 <div id="flyers">
     <h1>Flyers</h1>
     <div class="flex-container">
-        <div>
+            <div class="overlay"></div>
             <img src="media/Original%20Poster%20Campaign.jpg">
-        </div>
-        <div>
             <img src="media/Updated%20ASAM%20Program%20Poster.jpg">
-        </div>
-        <div>
             <img src="media/VASAM40%20Flyer.jpg">
-        </div>
-        <div>
             <img src="media/Hua%20Hsu.jpg">
-        </div>
-        <div>
             <img src="media/Gary%20Okihiro.png">
-        </div>
-        <div>
             <img src="media/VASAM%20Flyer.jpg">
-        </div>
-        <div>
             <img src="media/VASAM%20Small%20Flyers.jpg">
-        </div>
-        <div>
             <img src="media/Copy%20of%20Copy%20of%20VASAMClassPoster.jpg">
-        </div>
     </div>
 </div>
 
 <div id="posters">
     <h1>Other Posters</h1>
     <div class="flex-container">
-        <div>
             <img src="media/Newsletter%20-%20art%20by%20Megan%20Wang.png">
-        </div>
-        <div>
             <img src="media/CLASAM%20Single%20Poster.jpg">
-        </div>
-        <div>
             <img src="media/CLASAM%20Trio%20Poster.jpg">
-        </div>
-        <div>
             <img src="media/Intro%20to%20the%20VASAM%20.jpg">
-        </div>
-        <div>
             <img src="media/Intro%20to%20the%20VASAM%202.jpg">
-        </div>
-        <div>
             <img src="media/Intro%20to%20the%20VASAM%203.jpg">
-        </div>
-        <div>
             <img src="media/Intro%20to%20the%20VASAM%204.jpg">
-        </div>
-        <div>
             <img src="media/Intro%20to%20the%20VASAM%205.jpg">
-        </div>
-        <div>
             <img src="media/Intro%20to%20the%20VASAM%206.jpg">
-        </div>
     </div>
 </div>
-
+<script>
+$('img').on('click', function() {
+  $('.overlay')
+    .css({backgroundImage: `url(${this.src})`})
+    .addClass('open')
+    .one('click', function() { $(this).removeClass('open'); });
+});
+</script>
 </body>
 </html>

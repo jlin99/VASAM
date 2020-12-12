@@ -1,3 +1,8 @@
+@font-face {
+  font-family: League Spartan;
+  src: url(fonts/LeagueSpartan-Bold.otf);
+  font-weight: bold;
+}
 /* Media Queries */
 /* Card sizing */
 /* These are the colors I want
@@ -125,11 +130,12 @@
 
 /* Fonts */
 body {
-  font-family: Trebuchet MS;
+  font-family: League Spartan;
   background: #730709;
 }
 p{
   font-family: Garamond, serif;
+  font-weight: normal;
 }
 #timeline {
   padding: 100px 0;
@@ -263,7 +269,7 @@ p{
   letter-spacing: 2px;
   margin: 0;
   padding-bottom: 6px;
-  line-height: 0.7cm
+  line-height: 0.7cm;
 }
 #timeline .demo-card .head a{
     color:white;
@@ -297,7 +303,7 @@ p{
   }
 }
 #timeline .demo-card .body p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 18px;
   margin-bottom: 15px;
 }
@@ -305,8 +311,10 @@ p{
 #timeline .demo-card .body img {
   display: block;
   height: auto;
-  width: 60%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
+
+
 /*# sourceMappingURL=style.css.map */
